@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+@layer utilities {
+  @keyframes loader-sweep {
+    to {
+      transform: translateX(200%);
+    }
+  }
+}
